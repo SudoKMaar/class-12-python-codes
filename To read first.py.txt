@@ -1,0 +1,7 @@
+#To read first.txt
+
+file = open("first.txt","r")
+lines = file.readline()
+file.close
+
+print(lines)
